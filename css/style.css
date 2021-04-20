@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.wrap {
+    /*
+    width: 1152px;
+    */
+    width: 100%;    
+}
+table {
+    width: 100%;
+}
+
+/*header*/
+
+.header-left-bg {
+    background: url("../img/header/header-repeat-x.png") repeat-x;
+}
+.header-right-bg {
+    background: url("../img/header/header-right-bg.png") no-repeat right;
+    height: 49px;
+}
+h1,.header-h2,div.after-login {
+    display: inline-block;
+}
+.h1 {
+    text-decoration: none;
+    color: #ffffff;
+    font: 16px lighter;
+    line-height: 46px;
+    letter-spacing: -2.5px;
+    padding-left: 45px;
+    vertical-align: middle;
+}
+.header-h2 {
+    color: #b9c4d5;
+    font: 12px lighter;
+    vertical-align: middle;
+    letter-spacing: -0.5px;
+    padding-left: 2px;
+}
+div.after-login {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+p.after-login-text {
+    background: #ffdc7e left;
+    width: 3px;
+    height: 3px;
+    color: #cacbcb;
+    font-size: 12px;
+    line-height: 0;
+}
+strong.login-id {
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 6px;
+}
