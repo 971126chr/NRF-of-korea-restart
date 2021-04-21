@@ -7,6 +7,7 @@ body {
     width: 1152px;
     */
     width: 100%;
+    background: linear-gradient(to bottom, #d0d0cf, #ffffff);
 }
 table {
     width: 100%;
@@ -45,9 +46,6 @@ h1,.header-h2,div.after-login {
 div.header-right {
     position: absolute;
     right: 0;
-}
-div.after-login {
-    
 }
 p.after-login-text {
     background: #ffdc7e left;
@@ -104,4 +102,45 @@ button.logout-button>span {
     position: absolute;
     right: 10px;
     top: 5px;
+}
+
+/*aside*/
+
+.main {
+    position: relative;
+}
+.aside {
+    position: absolute;
+    width: 211px;
+    top: 12px;
+    left: 13px;
+}
+.aside-border {
+    border: 1px solid #d7d7cc;
+}
+.aside-border-2 {
+    border: 1px solid #f8f8f7;
+}
+.aside-bg {
+    background: #ededed;
+}
+.aside-top-border {
+    border-top: 4px solid #386c9e;
+    border-left: 4px solid #386c9e;
+    border-right: 4px solid #386c9e;
+    height: 40px;
+}
+ul.aside-list>li,ul.aside-list-2>li {
+    display: inline-block;
+}
+ul.aside-list>li>a,ul.aside-list-2>li>a {
+    text-decoration: none;
+}
+li.aside-h2>h2 {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    padding: 10px 44px 9px 37px;
+    background: linear-gradient(to bottom, #4274a4, #295783)
 }
