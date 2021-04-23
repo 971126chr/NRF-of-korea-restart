@@ -151,7 +151,7 @@ li.aside-h2>div>h2 {
     padding: 10px 44px 9px 37px;
     background: linear-gradient(to bottom, #4274a4, #295783)
 }
-span.aside-h2-yellow-marker {
+span.aside-h2-yellow-marker,.aside-h3-yellow-marker {
     background: #ffdc7e;
     width: 4px;
     height: 10px;
@@ -164,7 +164,7 @@ div.aside-h2-border-bottom-2 {
     border-image: linear-gradient(to right, #ededed, #c1c1c1 108px, #ededed);
     border-image-slice: 1;
 }
-ul.aside-list>li>div>h3 {
+h3.aside-h3-title {
     font-size: 14px;
     color: #2a2a2a;
     letter-spacing: -3px;
@@ -173,12 +173,12 @@ ul.aside-list>li>div>h3 {
     border-image: linear-gradient(to right, #ededed, #c1c1c1 108px, #ededed);
     border-image-slice: 1;
 }
-span.aside-h3-blue-marker {
+span.aside-h3-blue-marker,.aside-h2-blue-marker {
     background: #366899;
     width: 4px;
     height: 10px;
     display: inline-block;
-    margin-right: 4px;
+    margin-right: 5px;
 }
 ul.aside-list-2 {
     padding: 7px 17px 0 12px;
@@ -191,6 +191,48 @@ ul.aside-list-2>li>a {
     color: #414141;
     font-size: 12px;
     padding: 7px 27px 6px 34px;
+}
+
+/*index-2 aside*/
+.aside-h2-2 {
+    font-size: 14px;
+    letter-spacing: -2.5px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ededed, #ffffff 108px, #ededed);
+    border-image-slice: 1;
+}
+.index-2-aside-h2-border-bottom {
+    padding: 6px 39px 7px 37px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ededed, #c1c1c1 108px, #ededed);
+    border-image-slice: 1;
+}
+.aside-h3 {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ededed, #ffffff 108px, #ededed);
+    border-image-slice: 1;
+}
+.index-2-aside-h3-border-bottom {
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ededed, #c1c1c1 108px, #ededed);
+    border-image-slice: 1;
+}
+h3.aside-h3-bg {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -2.5px;
+    font-weight: lighter;
+    padding: 10px 44px 9px 37px;
+    background: linear-gradient(to bottom, #4274a4, #295783);
+}
+ul.aside-list-2>li>a.active {
+    font-weight: bold;
+    color: #366899;
+}
+ul.aside-list-2>li>a:hover {
+    font-weight: bold;
+    color: #366899;
 }
 
 /*index section*/
