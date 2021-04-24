@@ -67,7 +67,7 @@
                 </div>
                 <div class="section">
                     <h3 class="section-h3">
-                        연구지원과제 정보
+                        개인연구관리
                     </h3>
                     <div class="section-border">
                         <div class="section-border-2">
@@ -75,14 +75,14 @@
                                 <div class="orange-text">
                                     <div class="orange-text-border-right">
                                         <div class="orange-text-border-repeat">
-                                            <div class="orange-text-border">
-    
-                                            </div>
+                                            <h3 class="orange-text-border">
+                                                연구지원과제 정보
+                                            </h3>
                                         </div>
                                      </div>
                                 </div>
-                                <div class="section-content-border">
-                                    <div>
+                                <div class="section-content-border index-4-padding">
+                                    <div class="table-min-width">
                                         <h3 class="table-caption-none">변경신청내역보기</h3>
                                         <table class="index-2-first-table">
                                             <colgroup>
@@ -111,10 +111,14 @@
                                         </table>
                                     </div>
                                     <div class="blue-button-position">
-                                        <div class="blue-button">
-                                            <button class="index-3-button-left" type="submit">
-                                                <span>저장</span>
-                                            </button>
+                                        <div class="blue-button-center">
+                                            <div class="blue-button-left">
+                                                <div class="blue-button-right">
+                                                    <button class="index-3-button-left" type="submit">
+                                                        저장
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="index-3-table-margin">
@@ -129,7 +133,7 @@
                                                 <col style="width: 45%;">
                                             </colgroup>
                                             <tbody>
-                                                <tr>
+                                                <tr class="first-tr">
                                                     <th>구분</th>
                                                     <th>변경전</th>
                                                     <th>
@@ -140,16 +144,101 @@
                                                 </tr>
                                                 <tr>
                                                     <td>연구기관</td>
-                                                    <td>연세대학교</td>
-                                                    <td>
+                                                    <td class="no-padding-td">연세대학교</td>
+                                                    <td class="no-padding-td">
                                                         <div class="file-upload">
-                                                            <input type="text" class="file-name" disabled="disabled">
+                                                            <input type="text" class="file-name-2" disabled="disabled">
                                                             <div class="file-upload-button">
                                                                 <label for="find-file-2">파일찾기
                                                                 </label>
                                                             </div>
                                                             <input type="file" id="find-file-2">
                                                         </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="table-margin">
+                                        <h3 class="table-caption">
+                                            <span class="table-caption-marker"></span>
+                                            관련 파일이 있는 경우 파일을 첨부시켜 주십시요.
+                                        </h3>
+                                        <table>
+                                            <colgroup>
+                                                <col style="width: 15%;">
+                                                <col style="width: 85%;">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr class="first-tr">
+                                                    <th>
+                                                        <label for="find-file">
+                                                            첨부파일
+                                                        </label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="file-upload">
+                                                            <input type="text" class="file-name" disabled="disabled">
+                                                            <div class="file-upload-button">
+                                                                <label for="find-file">
+                                                                    파일찾기
+                                                                </label>
+                                                            </div>
+                                                            <input type="file" id="find-file">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="table-margin">
+                                        <h3 class="table-caption">
+                                            <span class="table-caption-marker"></span>
+                                            변경 사유를 입력하여 주십시오.
+                                        </h3>
+                                        <table>
+                                            <colgroup>
+                                                <col style="width: 15%;">
+                                                <col style="width: 85%;">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr class="first-tr">
+                                                    <th>
+                                                        <label for="file-select">
+                                                            첨부파일
+                                                        </label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="dropdown-menu-left">
+                                                            <select name="file-choice" id="file-select" class="dropdown-menu">
+                                                                <option value="choice" selected>
+                                                                    선택하여주십시오.
+                                                                </option>
+                                                                <option value="file-1">
+                                                                    file-1
+                                                                </option>
+                                                                <option value="file-2">
+                                                                    file-2
+                                                                </option>
+                                                                <option value="file-3">
+                                                                    file-3
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="th-line-height">
+                                                        <label for="detail">
+                                                            상세내역
+                                                        </label>
+                                                    </th>
+                                                    <td>
+                                                        <textarea id="detail" class="table-textarea">
+                                                        </textarea>
+                                                        <p class="table-textarea-bottom-text">
+                                                            현재 0 / (한글 100자, 영문 200자 이내)
+                                                        </p>
                                                     </td>
                                                 </tr>
                                             </tbody>
